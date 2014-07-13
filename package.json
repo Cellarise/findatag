@@ -1,6 +1,6 @@
 {
   "name": "grunt-cellarise-findatag",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This package has been forked from paypal/findatag, and adds a grunt task to generate locale properties from dust templates using an 'i' tag, so that the locale properties file can be automatically generated and used to produce locale property files for other locales. A specialized tokenizer for finding dust-style tags ({@tagname [attributes]/})",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/paypal/findatag.git"
+    "url": "git://github.com/cellarise/findatag.git"
   },
   "engines": {
     "node": ">=0.10.4"
@@ -45,6 +45,5 @@
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.7.0",
     "grunt-mocha-test": "~0.7.0"
-  },
-  "homepage": "https://github.com/paypal/findatag"
+  }
 }
