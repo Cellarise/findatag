@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
     grunt.registerMultiTask("findatagLocale", "Task to generate locale properties.", function () {
         // Merge task-specific and/or target-specific options with these defaults.
-        var finder = require("findatag"),
+        var finder = require("grunt-cellarise-findatag"),
             done = this.async(),
             self = this;
         // Iterate over all src-dest file pairs.
