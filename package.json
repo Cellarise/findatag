@@ -13,6 +13,9 @@
   "engines": {
     "node": ">=0.10.4"
   },
+  "publishConfig":{
+      "registry":"http://registry.npmjs.org/"
+  },
   "engineStrict": true,
   "keywords": [
     "dust",
